@@ -1,0 +1,68 @@
+h1{
+    color:#27A644;
+    width:50%;
+    margin:0 auto;
+    padding-top:30px;
+
+    padding-bottom:10px;
+    background-color:#1E1E30;
+}
+.div1{
+    margin-top: 2%;
+    text-align: center;
+    font-family:'Arima Madurai';
+   
+
+}
+
+.div2{
+    padding: 0.5%;
+    font-family:'Arima Madurai';
+    font-size:20px;
+    background-color:#1E1E30;
+    width:65%;
+    margin:0 auto;
+    margin-top:30px;
+    
+    
+}
+
+.div4{
+    padding: 1%;
+    padding-left:105px;
+}
+
+.lbl{
+    padding:1%;
+}
+.lb2{
+    padding:1%;
+    
+}
+.lb3{
+    padding:1%;
+}
+
+input{
+    background-color: transparent;
+    border:none;
+    color:white;
+    color:#27A644;
+    font-family:'Arima Madurai';
+    font-size :17px;
+}
+
+#input1{
+    color:#FFC107;
+}
+#input2{
+    color:#007AFE;
+}
+
+#tasktitle{
+    color:#e8491d;
+}
+
+#taskid{
+    color:#e8491d;
+}

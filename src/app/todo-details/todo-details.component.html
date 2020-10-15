@@ -1,0 +1,31 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
+</head>
+
+<div class="div1">
+    <h1>To-Do Details</h1>
+
+    <div *ngIf="todo" class="div2" >
+    
+        <h2> Details of - <span id="tasktitle">{{todo.title}}</span></h2>
+        <div class="div3">
+            <span >ID : </span>
+            <span id="taskid">{{todo.id}}</span>
+        </div>
+        <div class="div4">
+            <label class="lbl">Date:
+                <input [(ngModel)]="todo.date" placeholder="Date" id="input1"/>
+            </label>
+
+            <label class="lb2">Title:
+                <input [(ngModel)]="todo.title" placeholder="title" id="input2"/>
+            </label>
+          
+            <label class="lb3">Description:
+                <input [(ngModel)]="todo.description" placeholder="description" id="input3"/>
+            </label>
+
+        </div>
+    
+    </div>
+</div>
